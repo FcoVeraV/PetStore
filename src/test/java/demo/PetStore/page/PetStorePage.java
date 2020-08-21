@@ -4,14 +4,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.ExtentTest;
 
 import demo.helpers.Helper;
-import demo.helpers.PageWeb;
 
-public class PetStorePage extends PageWeb {
+public class PetStorePage {
 
+	private WebDriver driver;
+	private ExtentTest test;
+	private Boolean TAKE_SS;
+	private WebDriverWait wait;
 //Declaramos variables
 	private By varReptiles;
 	private By varProductoID;
@@ -19,7 +23,10 @@ public class PetStorePage extends PageWeb {
 
 //Parametrizamos nuestra clase ContactosSBLPage
 	public PetStorePage(WebDriver driver, ExtentTest test, Boolean TAKE_SS, int seconds) {
-		super(driver, test, TAKE_SS, seconds);
+		this.driver = driver;
+		this.test = test;
+		this.TAKE_SS = TAKE_SS;
+		wait = new WebDriverWait(driver, seconds);
 		this.varReptiles = By.xpath("(//img[contains(@src,'icon.gif')])[4]");
 		this.varProductoID = By.xpath("//a[contains(.,'RP-LI-02')]");
 		this.varPrecioLista = By.xpath("//td[contains(.,'$18.50')]");

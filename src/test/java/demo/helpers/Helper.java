@@ -1,13 +1,10 @@
 package demo.helpers;
 
-import java.awt.AWTException;
-import java.awt.Robot;
 import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -67,26 +64,7 @@ public class Helper {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	/**
-	 * <p>
-	 * Realiza scroll de la pagina web.
-	 * <p>
-	 *
-	 */
-	public static void scrollDown(WebDriver driver) {
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("window.scrollBy(0, 100000)");
-    }
 
-    public static void scrollUp(WebDriver driver) {
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("window.scrollBy(0, -100000)");
-    }
-
-    
-    
 	/**
 	 * <p>
 	 * Toma una impresion de pantalla y la guarda en un directorio donde quedan
@@ -144,27 +122,6 @@ public class Helper {
 			}
 		} catch (IOException e) {
 			// Impresion de Excepciones
-			e.printStackTrace();
-		}
-	}
-
-	/**
-	 * <p>
-	 * Utilizamos un robot para mover el mouse a la posicion x,y de la pantalla.
-	 *
-	 * @param x posicion x de la pantalla.
-	 * @param y posicion y de la pantalla.
-	 */
-	@SuppressWarnings("unused")
-	public static void robotMoveMouse(int x, int y) {
-		// Implementamos un robot para mover el mouse a la posicion x,y.
-		// Obtenemos un objeto Robot.
-		Robot robotObj;
-		try {
-			robotObj = new Robot();
-			robotObj.mouseMove(x, y);
-		} catch (AWTException e) {
-			// Error al seleccionar el archivo.
 			e.printStackTrace();
 		}
 	}

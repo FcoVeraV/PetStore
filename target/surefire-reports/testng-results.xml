@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="25850" started-at="2020-08-21T10:02:01 CLT" finished-at="2020-08-21T10:02:27 CLT">
+  <suite name="Surefire suite" duration-ms="26739" started-at="2020-08-21T10:04:11 CLT" finished-at="2020-08-21T10:04:37 CLT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="25850" started-at="2020-08-21T10:02:01 CLT" finished-at="2020-08-21T10:02:27 CLT">
+    <test name="Surefire test" duration-ms="26739" started-at="2020-08-21T10:04:11 CLT" finished-at="2020-08-21T10:04:37 CLT">
       <class name="demo.PetStore.test.Test_demo">
-        <test-method status="PASS" signature="configExtentReports()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="configExtentReports" is-config="true" duration-ms="185" started-at="2020-08-21T10:02:01 CLT" finished-at="2020-08-21T10:02:01 CLT">
+        <test-method status="PASS" signature="configExtentReports()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="configExtentReports" is-config="true" duration-ms="187" started-at="2020-08-21T10:04:10 CLT" finished-at="2020-08-21T10:04:11 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configExtentReports -->
-        <test-method status="PASS" signature="configSelenium()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="configSelenium" is-config="true" duration-ms="21977" started-at="2020-08-21T10:02:01 CLT" finished-at="2020-08-21T10:02:23 CLT">
+        <test-method status="PASS" signature="configSelenium()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="configSelenium" is-config="true" duration-ms="21927" started-at="2020-08-21T10:04:11 CLT" finished-at="2020-08-21T10:04:33 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configSelenium -->
-        <test-method status="PASS" signature="test_Demo()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="test_Demo" duration-ms="3826" started-at="2020-08-21T10:02:23 CLT" description="Test Demo" finished-at="2020-08-21T10:02:27 CLT">
+        <test-method status="PASS" signature="test_Demo()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="test_Demo" duration-ms="4771" started-at="2020-08-21T10:04:33 CLT" description="Test Demo" finished-at="2020-08-21T10:04:37 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Demo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="afterMethod" is-config="true" duration-ms="5" started-at="2020-08-21T10:02:27 CLT" finished-at="2020-08-21T10:02:27 CLT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="afterMethod" is-config="true" duration-ms="4" started-at="2020-08-21T10:04:37 CLT" finished-at="2020-08-21T10:04:37 CLT">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="closeExtentReports()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="closeExtentReports" is-config="true" duration-ms="348" started-at="2020-08-21T10:02:27 CLT" finished-at="2020-08-21T10:02:27 CLT">
+        <test-method status="PASS" signature="closeExtentReports()[pri:0, instance:demo.PetStore.test.Test_demo@4b952a2d]" name="closeExtentReports" is-config="true" duration-ms="314" started-at="2020-08-21T10:04:37 CLT" finished-at="2020-08-21T10:04:38 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExtentReports -->

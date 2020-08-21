@@ -1,0 +1,4 @@
+demo\helpers\Helper.class
+demo\helpers\PageWeb.class
+demo\PetStore\test\Test_demo.class
+demo\PetStore\page\PetStorePage.class
